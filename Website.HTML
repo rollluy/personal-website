@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rola Radwan</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation 
+  <header class="nav">
+    <h1 class="logo">Rola Radwan</h1>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>-->
+
+  <div class="tab">
+    <button class="tablinks logo-tab active" onclick="openPage(event, 'Logo')"><img src="images/head.jpg" alt="Logo"></button>
+    <!--<div class="tab-right"></div>-->
+    <button class="tablinks" onclick="openPage(event, 'About')">ABOUT</button>
+    <button class="tablinks" onclick="openPage(event, 'Experience')">EXPERIENCE</button>
+    <button class="tablinks" onclick="openPage(event, 'Work')">WORK</button>
+    <button class="tablinks" onclick="openPage(event, 'Contact')">CONTACT</button>
+    <button class="tablinks git-tab" onclick="window.open('https://github.com/rollluy', '_blank')"><img src="images/icone-github-noir.png" alt="GitHub"></button>
+    <button class="tablinks linked-tab" onclick="window.open('https://www.linkedin.com/in/rolaradwan/', '_blank')"><img src="images/linkedin-logo.jpg" alt=LinkedIn></button>
+  </div>
+
+  <div id="Logo" class="tabcontent tabcontent--landing">
+    <p>Website under construction!</p>
+  </div>
+
+  <div id="About" class="tabcontent">
+    <div style="font-size: 60px; font-weight: bolder;"></div>
+    <p></p>
+  </div>
+
+  <div id="Experience" class="tabcontent">
+    <p></p>
+  </div>
+
+  <div id="Work" class="tabcontent">
+    <div class="grid">
+      <button class="card card-projects" onclick="openPage(event, 'Technical Projects')">TECHNICAL PROJECTS</button>
+      <button class="card card-CAD" onclick="openPage(event, 'CAD Models')">CAD MODELS</button>
+      <button class="card card-course" onclick="openPage(event, 'Coursework')">COURSEWORK</button>
+    </div>
+  </div>
+
+  <div id="Contact" class="tabcontent">
+    <p></p>
+  </div>
+
+  <div id="Technical Projects" class="tabcontent">
+    <div class="grid">
+      <button class="card card-ALU" onclick="window.open('https://github.com/rollluy/ALU', '_blank')">ALU</button>
+      <button class="card card-game" onclick="window.open('https://github.com/rollluy/adventure-game', '_blank')">ADVENTURE GAME</button>
+      <button class="card card-calc" onclick="window.open('https://github.com/rollluy/integer-calculator', '_blank')">INTEGER CALCULATOR</button>
+      <button class="card card-gradecalc" onclick="window.open('https://github.com/rollluy/student-average-calculator', '_blank')">STUDENT AVERAGE CALCULATOR</button>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
+  </div>
+
+  <div id="CAD Models" class="tabcontent">
+    <div class="grid">
+      <div class="card CAD card-bulldozer">Bulldozer<!--<p class="caption">Replica of a toy bulldozer.</p>--></div>
+      <div class="card CAD card-hook">Cable Hook</div>
+      <div class="card CAD card-chest">Chest</div>
+      <div class="card CAD card-key">Keychain</div>
+      <div class="card CAD card-drone">Drone Chassis</div>
+      <div class="card CAD card-vice">Machinist's Vice</div>
+      <div class="card CAD card-tangent">Tangency</div>
+      <div class="card CAD card-fig">Game Figure</div>
+    </div>
+  </div>
+
+  <div id="Coursework" class="tabcontent">
+    <p></p>
+  </div>
+
+  <!-- Header 
+  <section class="header">
+    <img src="images/head.jpg" alt="Featured work" />
+    <div class="header-text">
+      <h2>Hi, I'm Rola.</h2>
+    </div>
+  </section>-->
+
+  <!-- About -
+  <section id="about" class="section">
+    <h3>About</h3>
+    <p>
+      Short bio goes here. Keep it minimal and personal.
+    </p>
+  </section>-->
+
+  <!-- Footer 
+  <footer class="footer">
+    <p>© 2026 Rola Radwan</p>
+  </footer>-->
+
+  <script src="script.js"></script>
+</body>
+</html>

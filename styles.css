@@ -1,0 +1,253 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://fonts.gstatic.com/s/poppins/v24/pxiGyp8kv8JHgFVrJJLucXtAKPY.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Base styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #111;
+  background: #fff;
+  line-height: 1;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.nav a {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #111;
+  font-size: 0.9rem;
+}
+
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Header */
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.header img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Sections */
+.section {
+  padding: 4rem 2rem;
+}
+
+.section h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  font-weight: bold;
+}
+
+.card {
+  border: 1px solid #eaeaea;
+  padding: 2rem;
+  transition: background 0.3s;
+  background: white;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left;
+  border-radius: 12px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card:hover {
+  background: #ddd9d9;
+}
+
+/*
+.card-projects{
+  background-image: url("images/icone-github-noir.png");
+}*/
+
+.CAD{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.card-bulldozer{
+  background-image: url("images/CAD/Bulldozer_-_Rola.png");
+}
+
+.card-hook{
+  background-image: url("images/CAD/Cable_Hook_.png");
+}
+
+.card-chest{
+  background-image: url("images/CAD/chair_.png");
+}
+
+.card-key{
+  background-image: url("images/CAD/Keychain_.png");
+}
+
+.card-vice{
+  background-image: url("images/CAD/Machinist\'s_Vise_.png");
+}
+
+.card-tangent{
+  background-image: url("images/CAD/Tangency_.png");
+}
+
+.card-fig{
+  background-image: url("images/CAD/ACV_.png");
+}
+
+.card-drone{
+  background-image: url("images/CAD/chassis.PNG");
+}
+
+.CAD:hover{
+  background: inherit;
+}
+
+
+/* Footer */
+.footer {
+  font-family: 'Poppins', sans-serif;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: large;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  padding: none;
+}
+
+/*.tab-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-left: auto;
+}*/
+
+.logo-tab{
+  margin-right: auto;
+  padding: 0;
+  transform: scale(0.85);
+}
+
+.git-tab{
+  padding: 0;
+}
+
+.git-tab img{
+  width: 22px;
+  height: 22px;
+}
+
+.linked-tab{
+  padding: 0;
+}
+
+.linked-tab img{
+  width: 29px;
+  height: 29px;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  text-decoration: underline;
+}
+
+/* Style the tab content */
+.tabcontent {
+  font-family: 'Poppins', sans-serif;
+  display: none;
+  padding: 6px 12px;
+  border: none;
+  border-top: none;
+  padding-top: 5rem;
+}
+
+.tabcontent--landing{
+  display: block;
+  padding-top: 10rem;
+}
+
+
