@@ -117,35 +117,35 @@ body {
 }
 
 .card-bulldozer{
-  background-image: url("images/CAD/Bulldozer_-_Rola.png");
+  background-image: url("../images/CAD/Bulldozer_-_Rola.png");
 }
 
 .card-hook{
-  background-image: url("images/CAD/Cable_Hook_.png");
+  background-image: url("../images/CAD/Cable_Hook_.png");
 }
 
 .card-chest{
-  background-image: url("images/CAD/chair_.png");
+  background-image: url("../images/CAD/chair_.png");
 }
 
 .card-key{
-  background-image: url("images/CAD/Keychain_.png");
+  background-image: url("../images/CAD/Keychain_.png");
 }
 
 .card-vice{
-  background-image: url("images/CAD/Machinist\'s_Vise_.png");
+  background-image: url("../images/CAD/Machinist\'s_Vise_.png");
 }
 
 .card-tangent{
-  background-image: url("images/CAD/Tangency_.png");
+  background-image: url("../images/CAD/Tangency_.png");
 }
 
 .card-fig{
-  background-image: url("images/CAD/ACV_.png");
+  background-image: url("../images/CAD/ACV_.png");
 }
 
 .card-drone{
-  background-image: url("images/CAD/chassis.PNG");
+  background-image: url("../images/CAD/chassis.PNG");
 }
 
 .CAD:hover{
