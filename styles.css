@@ -102,7 +102,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.card:hover {
+.card:not(.CAD):hover {
   background: #ddd9d9;
 }
 
@@ -148,9 +148,6 @@ body {
   background-image: url("../images/CAD/chassis.PNG");
 }
 
-.CAD:hover{
-  background: inherit;
-}
 
 
 /* Footer */
@@ -253,6 +250,11 @@ body {
 .tabcontent--landing{
   display: block;
   padding-top: 10rem;
+}
+
+.caption{
+  font-size: smaller;
+  color: gray;
 }
 
 
