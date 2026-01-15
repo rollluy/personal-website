@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,6 @@
   font-style: normal;
 }
 
-/* Base styles */
 body {
   font-family: 'Poppins', sans-serif;
   color: #111;
@@ -20,7 +19,6 @@ body {
   line-height: 1;
 }
 
-/* Navigation */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -41,7 +39,6 @@ body {
   font-weight: 500;
 }
 
-/* Header */
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -66,7 +63,6 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Sections */
 .section {
   padding: 4rem 2rem;
 }
@@ -77,7 +73,6 @@ body {
   margin-bottom: 2rem;
 }
 
-/* Grid */
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -102,19 +97,17 @@ body {
   background-repeat: no-repeat;
 }
 
+/*excludes CAD files from changing background when hovered over*/
 .card:not(.CAD):hover {
   background: #ddd9d9;
 }
-
-/*
-.card-projects{
-  background-image: url("images/icone-github-noir.png");
-}*/
 
 .CAD{
   color: white;
   font-size: 1.5rem;
 }
+
+/*CAD portfolio images*/
 
 .card-bulldozer{
   background-image: url("../images/CAD/Bulldozer_-_Rola.png");
@@ -149,8 +142,7 @@ body {
 }
 
 
-
-/* Footer */
+/*
 .footer {
   font-family: 'Poppins', sans-serif;
   padding: 2rem;
@@ -159,7 +151,7 @@ body {
   color: #666;
 }
 
-/* Responsive */
+ Responsive */
 @media (max-width: 768px) {
   .header {
     grid-template-columns: 1fr;
@@ -167,10 +159,10 @@ body {
 }
 
 .tabcontent {
-  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  animation: fadeEffect 1s; 
 }
 
-/* Go from zero to full opacity */
+
 @keyframes fadeEffect {
   from {opacity: 0;}
   to {opacity: 1;}
@@ -232,12 +224,10 @@ body {
   height: 29px;
 }
 
-/* Create an active/current tablink class */
 .tab button.active {
   text-decoration: underline;
 }
 
-/* Style the tab content */
 .tabcontent {
   font-family: 'Poppins', sans-serif;
   display: none;
