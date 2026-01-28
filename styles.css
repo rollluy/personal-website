@@ -224,6 +224,15 @@ body {
   height: 29px;
 }
 
+.mail-tab{
+  padding: 0;
+}
+
+.mail-tab img{
+  width: 35px;
+  height: 35px;
+}
+
 .tab button.active {
   text-decoration: underline;
 }
