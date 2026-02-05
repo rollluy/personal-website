@@ -22,7 +22,7 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  /*padding: 2rem;*/
 }
 
 .nav a {
@@ -42,8 +42,8 @@ body {
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  padding: 2rem;
+  /*gap: 2rem;
+  padding: 2rem;*/
 }
 
 .header img {
@@ -60,17 +60,17 @@ body {
 .header h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
-  margin-bottom: 1rem;
+  /*margin-bottom: 1rem;*/
 }
 
 .section {
-  padding: 4rem 2rem;
+  /*padding: 4rem 2rem;*/
 }
 
 .section h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
-  margin-bottom: 2rem;
+  /*margin-bottom: 2rem;*/
 }
 
 .grid {
@@ -197,7 +197,7 @@ body {
 
 .logo-tab{
   margin-right: auto;
-  padding: 0;
+  padding: none;
 }
 
 .logo-tab img{
@@ -240,16 +240,16 @@ body {
 .tabcontent {
   font-family: 'Poppins', sans-serif;
   display: none;
-  padding: 6px 12px;
+  /*padding: 6px 12px;*/
   border: none;
   border-top: none;
-  padding-top: 5rem;
 }
 
 .tabcontent--landing{
   display: block;
-  padding-top: 10rem;
+  padding: none;
 }
+
 
 .caption{
   font-size: smaller;
